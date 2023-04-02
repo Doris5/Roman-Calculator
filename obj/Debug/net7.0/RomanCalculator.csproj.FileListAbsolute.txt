@@ -13,3 +13,18 @@ C:\Users\domin\Desktop\RomanCalculator\obj\Debug\net7.0\refint\RomanCalculator.d
 C:\Users\domin\Desktop\RomanCalculator\obj\Debug\net7.0\RomanCalculator.pdb
 C:\Users\domin\Desktop\RomanCalculator\obj\Debug\net7.0\RomanCalculator.genruntimeconfig.cache
 C:\Users\domin\Desktop\RomanCalculator\obj\Debug\net7.0\ref\RomanCalculator.dll
+C:\Users\domin\Desktop\Roman calculator\Roman-Calculator\bin\Debug\net7.0\RomanCalculator.exe
+C:\Users\domin\Desktop\Roman calculator\Roman-Calculator\bin\Debug\net7.0\RomanCalculator.deps.json
+C:\Users\domin\Desktop\Roman calculator\Roman-Calculator\bin\Debug\net7.0\RomanCalculator.runtimeconfig.json
+C:\Users\domin\Desktop\Roman calculator\Roman-Calculator\bin\Debug\net7.0\RomanCalculator.dll
+C:\Users\domin\Desktop\Roman calculator\Roman-Calculator\bin\Debug\net7.0\RomanCalculator.pdb
+C:\Users\domin\Desktop\Roman calculator\Roman-Calculator\obj\Debug\net7.0\RomanCalculator.csproj.AssemblyReference.cache
+C:\Users\domin\Desktop\Roman calculator\Roman-Calculator\obj\Debug\net7.0\RomanCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\domin\Desktop\Roman calculator\Roman-Calculator\obj\Debug\net7.0\RomanCalculator.AssemblyInfoInputs.cache
+C:\Users\domin\Desktop\Roman calculator\Roman-Calculator\obj\Debug\net7.0\RomanCalculator.AssemblyInfo.cs
+C:\Users\domin\Desktop\Roman calculator\Roman-Calculator\obj\Debug\net7.0\RomanCalculator.csproj.CoreCompileInputs.cache
+C:\Users\domin\Desktop\Roman calculator\Roman-Calculator\obj\Debug\net7.0\RomanCalculator.dll
+C:\Users\domin\Desktop\Roman calculator\Roman-Calculator\obj\Debug\net7.0\refint\RomanCalculator.dll
+C:\Users\domin\Desktop\Roman calculator\Roman-Calculator\obj\Debug\net7.0\RomanCalculator.pdb
+C:\Users\domin\Desktop\Roman calculator\Roman-Calculator\obj\Debug\net7.0\RomanCalculator.genruntimeconfig.cache
+C:\Users\domin\Desktop\Roman calculator\Roman-Calculator\obj\Debug\net7.0\ref\RomanCalculator.dll

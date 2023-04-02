@@ -11,8 +11,8 @@ namespace RomanCalculator
         public RomanCalculator.MenuSelection GetInputChoice(Display displayCalculatorMenu)
         {
             Console.WriteLine("Welcome in Roman Calculator!");
-            var choice = displayCalculatorMenu.PrintCalculatorMenu()
-                ;            switch (choice)
+            var choice = displayCalculatorMenu.PrintCalculatorMenu();
+            switch (choice)
             {
                 case "1":
                     return RomanCalculator.MenuSelection.NewCalc;
@@ -20,7 +20,9 @@ namespace RomanCalculator
                     return RomanCalculator.MenuSelection.Quit;
                 default:
                     Console.WriteLine("Invalid number");
-                    return RomanCalculator.MenuSelection.Quit;
+                    Console.WriteLine("Try again!");
+                    GetInputChoice(displayCalculatorMenu);
+                    return RomanCalculator.MenuSelection.NewCalc;
             }
         }
 
