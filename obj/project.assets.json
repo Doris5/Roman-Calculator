@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\domin\\Desktop\\RomanCalculator\\RomanCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\domin\\Desktop\\Roman calculator\\Roman-Calculator\\RomanCalculator.csproj",
       "projectName": "RomanCalculator",
-      "projectPath": "C:\\Users\\domin\\Desktop\\RomanCalculator\\RomanCalculator.csproj",
+      "projectPath": "C:\\Users\\domin\\Desktop\\Roman calculator\\Roman-Calculator\\RomanCalculator.csproj",
       "packagesPath": "C:\\Users\\domin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\domin\\Desktop\\RomanCalculator\\obj\\",
+      "outputPath": "C:\\Users\\domin\\Desktop\\Roman calculator\\Roman-Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\domin\\AppData\\Roaming\\NuGet\\NuGet.Config",

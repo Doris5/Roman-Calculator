@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8VZwRzcFvtOIbJKQeQhrPODuqj+Mipt25CE9fcyG9GVNys0l48969YZITzxeRXFBLsn2Y5qEElwLrYj/MQIo5g==",
+  "dgSpecHash": "OVfcuauwKF9WaDMXBZHxkR1HOQgnf08AfjtNqBeDT5LrjraU/vw9gKU1sU63w0njIvP7DmyWoQDCqXWBGTgqnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\domin\\Desktop\\RomanCalculator\\RomanCalculator.csproj",
+  "projectFilePath": "C:\\Users\\domin\\Desktop\\Roman calculator\\Roman-Calculator\\RomanCalculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
