@@ -5,8 +5,11 @@ Take on the role of the Roman Emperor's Minister for Innovation and develop a ca
 [Zadanie.pdf](https://github.com/Doris5/Roman-Calculator/files/11132618/Zadanie.pdf)
 
 # Technology
-*IDE: Microsoft Visual Studio
-*Clean C#
+* IDE: Microsoft Visual Studio
+* Clean C#
+
+# Execution time
+3h
 
 # Table of Roman numbers on which I relied
 
