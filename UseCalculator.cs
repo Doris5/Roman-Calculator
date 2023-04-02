@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RomanCalculator
+﻿namespace RomanCalculator
 {
     public class UseCalculator
     {
@@ -45,13 +39,13 @@ namespace RomanCalculator
             else if (operation == "-") result = num1 - num2;
             else
             {
-                Console.WriteLine("Invalid operation.");
+                _display.PrintInvalidOperation();
                 DoCalculation();
             }
 
             if (result < 1)
             {
-                Console.WriteLine("Roman numerals cannot represent zero or negative numbers.");
+                _display.PrintErrorValidation();
                 DoCalculation();
             }
 
@@ -91,6 +85,7 @@ namespace RomanCalculator
                 case 'M': return 1000;
                 default:
                     Console.WriteLine($"Case {romanSymbol} is invalid.");
+                    DoCalculation();
                     return 0;
             }
         }
@@ -103,7 +98,7 @@ namespace RomanCalculator
                 return "";
             }
 
-            string[] thousands = { "", "M", "MM" };
+            string[] thousands = { "", "M", "MM", "MMM" };
             string[] hundreds = { "", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM" };
             string[] tens = { "", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC" };
             string[] units = { "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX" };

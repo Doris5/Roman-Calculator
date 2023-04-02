@@ -1,4 +1,6 @@
-﻿namespace RomanCalculator
+﻿using static RomanCalculator.RomanCalculator;
+
+namespace RomanCalculator
 {
     public class RomanCalculator
     {
@@ -22,7 +24,7 @@
         private readonly Display _displayGame;
         private readonly Input _getInput;
 
-        public enum MenuSelection { NewCalc, Quit };
+        public enum MenuSelection { NewCalc, Quit, Again };
 
         public RomanCalculator()
         {
@@ -42,6 +44,9 @@
                         break;
                     case MenuSelection.Quit:
                         _displayGame.PrintQuitCalculator();
+                        return;
+                    case MenuSelection.Again:
+                        MainMenu();
                         return;
                 }
             } while (true);

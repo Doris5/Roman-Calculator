@@ -10,7 +10,7 @@ namespace RomanCalculator
     {
         public RomanCalculator.MenuSelection GetInputChoice(Display displayCalculatorMenu)
         {
-            Console.WriteLine("Welcome in Roman Calculator!");
+            displayCalculatorMenu.PrintWelcomeMessage();
             var choice = displayCalculatorMenu.PrintCalculatorMenu();
             switch (choice)
             {
@@ -19,10 +19,8 @@ namespace RomanCalculator
                 case "2":
                     return RomanCalculator.MenuSelection.Quit;
                 default:
-                    Console.WriteLine("Invalid number");
-                    Console.WriteLine("Try again!");
-                    GetInputChoice(displayCalculatorMenu);
-                    return RomanCalculator.MenuSelection.NewCalc;
+                    displayCalculatorMenu.PrintInvalidOperation();
+                    return RomanCalculator.MenuSelection.Again;
             }
         }
 
