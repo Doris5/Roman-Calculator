@@ -37,9 +37,11 @@ Rule 9: Roman numerals do not follow any place value system.
 
 Rule 10: There is no Roman numeral for zero(0).
 
-How it word?
+# How it works?
 
 The program first prompts the user to enter two Roman numerals separated by a space, and then asks the user to specify whether they want to add or subtract the two numbers.
 
 The program then converts the Roman numerals to decimal values using the ConvertRomanToDecimalNumber method,
 performs the requested operation, and then converts the result back to a Roman numeral using the ConvertToRomanNumeral method.
+
+Display messages and inputs are seperated.
