@@ -6,7 +6,7 @@
         private readonly Input _input;
         private int _num1;
         private int _num2;
-        private string _operation;
+        private string _operator;
 
         public UseCalculator(Display display, Input input)
         {
@@ -21,15 +21,16 @@
         {
             _display.PrintAskForRomanNumerals();
 
-            string[] userInput = _input.GetDigitsFromUser();
+            string[] userInput = _input.GetDigitsAndOperatorFromUser();
             
             _num1 = ConvertRomanToDecimalNumber(userInput[0]);
-            _num2 = ConvertRomanToDecimalNumber(userInput[1]);
+            _operator = userInput[1];
+            _num2 = ConvertRomanToDecimalNumber(userInput[2]);
 
-            _display.PrintAskFromOperator();
-            _operation = _input.GetOperatorFromUser();
+            //_display.PrintAskFromOperator();
+            //_operator = _input.GetOperatorFromUser();
 
-            GetResult(_operation, _num1, _num2);
+            GetResult(_operator, _num1, _num2);
         }
 
         public void GetResult(string operation, int num1, int num2)

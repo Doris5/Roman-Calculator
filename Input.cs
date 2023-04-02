@@ -24,7 +24,7 @@ namespace RomanCalculator
             }
         }
 
-        public string[] GetDigitsFromUser()
+        public string[] GetDigitsAndOperatorFromUser()
         {
         string userInput = Console.ReadLine().ToUpper();
 

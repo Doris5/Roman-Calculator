@@ -26,7 +26,7 @@ namespace RomanCalculator
         public void PrintAskForRomanNumerals()
         {
             Console.WriteLine();
-            Console.WriteLine("Enter two Roman numerals between (1-2000) separated by a space:");
+            Console.WriteLine("Enter two Roman numerals between (1-2000) separated by a operator e.g(X - III) :");
             Console.WriteLine();
         }
 
